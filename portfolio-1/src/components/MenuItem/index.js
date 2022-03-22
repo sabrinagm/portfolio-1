@@ -10,7 +10,7 @@ export default class MenuItem extends React.Component {
         <p>${this.props.itemPrice}</p>
         <h2>{this.props.itemName}</h2>
         <p>{this.props.itemDescription}</p>
-        <AddToCart>{this.props.itemName}</AddToCart>
+        <AddToCart></AddToCart>
       </div>
     );
   }
