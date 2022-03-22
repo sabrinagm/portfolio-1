@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import MenuApp from './components/MenuApp';
+import DeliveryTime from './components/DeliveryTime';
 
 const data = [
   {
@@ -57,9 +58,11 @@ const data = [
   }
 ]
 
+
 function App() {
   return (
     <div className="App">
+    <span><DeliveryTime></DeliveryTime></span>
       <MenuApp data={data}/>
     </div>
   );

@@ -53,7 +53,7 @@
   margin: 10px;
 }
 
-button {
+.AddToCartButton {
   margin-bottom: 20px;
   border-style: none;
   color: #9b1306;
@@ -65,7 +65,7 @@ button {
   font-size: 15px;
 }
 
-button:hover {
+.AddToCartButton:hover {
   background-color: #9b1306;
   color:white;
   border-color: white;
@@ -76,4 +76,22 @@ button:hover {
   font-family: cursive;
   font-size: 40px;
   color: #9b1306;
+}
+
+.DeliveryTime {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: -4px;
+  border-style: none;
+  color: #9b1306;
+  border-width: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #E8DED1;
+  font-size: 15px;
+}
+
+.DeliveryTime:hover {
+  color: white;
 }

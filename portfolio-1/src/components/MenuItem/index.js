@@ -1,5 +1,6 @@
-import React from "react"
+import React from "react";
 //import MenuApp from "../../App";
+import AddToCart from '../AddToCart';
 
 export default class MenuItem extends React.Component {
   render() {
@@ -9,7 +10,7 @@ export default class MenuItem extends React.Component {
         <p>${this.props.itemPrice}</p>
         <h2>{this.props.itemName}</h2>
         <p>{this.props.itemDescription}</p>
-        <button>Add to Cart</button>
+        <AddToCart>{this.props.itemName}</AddToCart>
       </div>
     );
   }
